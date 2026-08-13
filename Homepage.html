@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fahith's Life</title>
+
+<link rel="stylesheet" href="Homepage.css">
+
+</head>
+
+
+
+<body>
+
+
+<header>
+
+<h1>Fahith's Life</h1>
+
+
+<nav>
+
+<a href="Homepage.html">Home</a>
+
+<a href="Hobby1.html">Hobby 1</a>
+
+<a href="Hobby2.html">Hobby 2</a>
+
+<a href="index.html">Logout</a>
+
+</nav>
+
+
+</header>
+
+
+
+<main>
+
+
+<section class="hero">
+
+
+<h2 id="welcome">
+Welcome!
+</h2>
+
+
+<p>
+This website is made to showcase my hobbies and interests.
+</p>
+
+
+</section>
+
+
+</main>
+
+
+
+<footer>
+
+<p>
+© 2026 Fahith's Life
+</p>
+
+</footer>
+
+
+
+<script>
+
+let username = localStorage.getItem("username");
+
+
+if(username){
+
+document.getElementById("welcome").innerHTML =
+"Welcome " + username + "!";
+
+}
+
+
+</script>
+
+
+</body>
+
+
+</html>
