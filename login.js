@@ -8,7 +8,7 @@ function login() {
 
         alert("Login successful!");
 
-        window.location.href = "/Homepage.html";
+        window.location.href = "./Homepage.html";
 
     }
 
